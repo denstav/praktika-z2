@@ -9,9 +9,9 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__container">
-            <a href="#" class="header__logo"><img src="img/Logo.svg" alt="Логотип"></a>
-            <nav class="header__menu menu">
+        <div class="header__container container">
+            <a href="#" class="header__logo"><img src="img/Logo.svg" alt="Логотип" class="logo"></a>
+            <nav class="header__menu">
                 <ul class="menu__list">
                     <li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
                     <li class="menu__item"><a href="#" class="menu__link">Проекты</a></li>
@@ -19,45 +19,29 @@
                     <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
                     <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
                 </ul>
+                <button class="search__btn" id="open-search">
+                    <svg class="search__img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff">
+                        <rect width="7.56126" height="1.89031" transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6062 17.3762)" fill="#333333"/>
+                        <path d="M20.9303 10.7726C20.9303 16.1533 16.4855 20.5452 10.9652 20.5452C5.44478 20.5452 1 16.1533 1 10.7726C1 5.39198 5.44478 1 10.9652 1C16.4855 1 20.9303 5.39198 20.9303 10.7726Z" stroke="#333333" stroke-width="2"/>
+                    </svg>
+                </button>
             </nav>
-            <div class="header__search">
-                <a href="#"><img src="img/search.svg" alt="Поиск" class="search"></a>
-            </div>
         </div>
     </header>
-    <main class="main">
-        <div class="main__container">
-            <div class="main__content">
-                <h1 class="main__content-h1">Проектные решения<br> любой сложности</h1>
-                <p class="main__content-p">Есть над чем задуматься: базовые сценарии поведения<br> пользователей и по сей день остаются уделом проектантов</p>
-                <button class="main__content-btn">Заказать расчет</button>
-            </div>
-            <div class="main-block__content">
-                <h2 class="block__content-h2">О нас</h2>
-                <p class="block__content-p">Также как перспективное планирование создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий<br>
-                     с учётом комплекса экспериментов, поражающих по своей масштабности и грандиозности. А также диаграммы связей могут быть описаны<br>
-                      максимально подробно. Мы вынуждены отталкиваться от того, что убеждённость некоторых оппонентов требует от нас анализа как<br>
-                       самодостаточных, так и внешне зависимых концептуальных решений! Следует отметить, что высококачественный прототип будущего проекта<br>
-                        предопределяет высокую востребованность позиций, занимаемых участниками в отношении поставленных задач. Мы вынуждены отталкиваться<br>
-                         от того, что высококачественный прототип будущего проекта способствует повышению качества экспериментов.</p>
-                <div class="block-content-information">
-                    <div class="content-information_left">
-                        
-                    </div>
-                    <div class="content-information__rightOne">
-                        
-                    </div>
-                    <div class="content-information__rightTwo">
-                        
-                    </div>
-
-                </div>
+    <main class="container">
+        <div class="main__block-content">
+            <div class="block__content">
+                <h1 class="content-text__title">Проектные решения любой сложности</h1>
+                <p class="content-text__sub">Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов</p>
+                <button class="content-text__btn">Заказать расчёт</button>
             </div>
         </div>
-
-    </main>
-
-
+        <div class="about-us">
+            <div class="about-us__block">
+                <h2 class="about-us-text__h2">О нас</h2>
+                <div class="about-us-text__div">Также как перспективное планирование создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей масштабности и грандиозности. А также диаграммы связей могут быть описаны максимально подробно. Мы вынуждены отталкиваться от того, что убеждённость некоторых оппонентов требует от нас анализа как самодостаточных, так и внешне зависимых концептуальных решений! Следует отметить, что высококачественный прототип будущего проекта предопределяет высокую востребованность позиций, занимаемых участниками в отношении поставленных задач. Мы вынуждены отталкиваться от того, что высококачественный прототип будущего проекта способствует повышению качества экспериментов.</div>
+            </div>
+        
+    
 </body>
-
 </html>
