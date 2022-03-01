@@ -221,6 +221,15 @@
 }
 .block-step__text-p{
     padding: 0 85px 0 0;
+
+}
+
+.block-step__text-a:focus{
+    color: rgba(255, 153, 0, 1);
+}
+.block-step__text-a{
+    text-decoration: none;
+    color: #333333;
 }
 .orange-step{
     color: rgba(255, 153, 0, 1);
@@ -402,6 +411,7 @@
     background: #414141;
     height: 150px;
     border: none;
+    
 }
 .form__message::placeholder{
     font-style: normal;
@@ -409,6 +419,7 @@
     font-size: 16px;
     line-height: 32px;
     color: #CACACA;
+    padding: 14px 24px;
 }
 .block-content__contacts-center__form-buttons{
     display: flex;
