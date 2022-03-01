@@ -389,6 +389,9 @@
     margin: 0 25px 0 0;
 
 }
+.block-content__contacts-right{
+    margin-top: 100px;
+}
 .block-content__contacts-right__text{
     width: 363px;
     font-style: normal;
@@ -396,7 +399,6 @@
     font-size: 16px;
     line-height: 32px;
     color: #CACACA;
-    margin-top: 137px;
     text-align: start;
 
 }
