@@ -25,7 +25,7 @@
     
     
 }
-.header__logo{
+.header__logo,.footer_logo{
     width: 224px;
     height: 72px;
 }
@@ -353,4 +353,146 @@
     font-size: 24px;
     line-height: 32px;
     color: #333333;
+}
+
+.footer{
+    width: 100%;
+    background: #222222;
+    margin-top: 100px;
+    height: 594px;
+    
+}
+.footer-block-content__contacts{
+    padding-top: 50px;
+}
+.footer-block-content__contacts{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.block-content__contacts-left__text_all{
+    margin-top: 20px;
+}
+.block-content__contacts-left__text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 36px;
+    color: #CACACA;
+
+}
+.block-content__contacts-left-icons{
+    margin-top: 90px;
+}
+.contacts__icon{
+    margin: 0 25px 0 0;
+
+}
+.block-content__contacts-right__text{
+    width: 363px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #CACACA;
+    margin-top: 137px;
+    text-align: start;
+
+}
+
+.block-content__contacts-center-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    color: #CACACA;
+
+}
+.block-content__contacts-center__form{
+    width:570px;
+    margin-top: 25px;
+}
+.form__name{
+    width:570px;
+    background: #414141;
+    height: 60px;
+    border: none;
+    
+}
+.form__name::placeholder{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #CACACA;
+    padding: 14px 24px;
+    
+}
+.form__email::placeholder{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #CACACA;
+    padding: 14px 24px;
+
+}
+.form__email{
+    margin-top: 25px;
+    width:570px;
+    background: #414141;
+    height: 60px;
+    border: none;
+}
+
+.form__message{
+    margin-top: 25px;
+    width:570px;
+    background: #414141;
+    height: 150px;
+    border: none;
+    
+    
+    
+
+}
+.form__message::placeholder{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #CACACA;
+    
+    
+}
+
+.block-content__contacts-center__form-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.form-button__sumbit{
+    width: 269px;
+    height: 58px;
+    background: #FF9900;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.form-buttons_checkbox{
+    display: flex;
+    align-items: center;
+}
+.form-buttons_checkbox-text{
+    margin-left: 4px ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #CACACA;
 }
