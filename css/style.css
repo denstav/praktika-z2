@@ -177,7 +177,13 @@
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
 }
-
+.about-us-text__h2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    color: #333333;
+}
 .img-text__p{
     font-size: 16px;
     line-height: 32px;
@@ -231,4 +237,92 @@
 .card-txt__text{
     font-size: 16px;
     line-height: 20px;
+}
+
+.How-we-working{
+    margin-top: 100px;
+}
+
+.How-we-working__text-h2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    color: #333333; 
+}
+
+.How-we-working__block-step{
+    margin-top: 50px;
+    display: flex;
+}
+.block-step__text-p{
+    padding: 0 85px 0 0;
+}
+.orange-step{
+    color: rgba(255, 153, 0, 1);
+}
+.How-we-working__block-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.How-we-working__block-two{
+    margin-top: 45px;
+}
+.block-two-text__h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+.block-two-text__div{
+    width: 758px;
+    height: 320px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333333;
+    margin-top: 8px;
+}
+
+.block-two__buttons{
+    margin-top: 50px;
+    
+}
+.block-two__buttons-more{
+    width: 175px;
+    height: 60px;
+    background: #FF9900;
+    border: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.block-two__buttons-treaty{
+    width: 147px;
+    height: 60px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    cursor: pointer;
+    margin-left: 32px;
+    
+    
+}
+
+.How-we-working__block-three{
+    background: url('/img/fon.jpg') no-repeat #998A8A;
+    background-size: cover;
+    margin-top: 55px;
+    align-items: flex-end;
 }
