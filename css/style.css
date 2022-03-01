@@ -326,3 +326,31 @@
     margin-top: 55px;
     align-items: flex-end;
 }
+
+.FAQ__block{
+    margin-top: 100px;
+}
+.FAQ__block-text__h2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    color: #333333;
+}
+
+.FAQ__block-text__blocks{
+    margin-top: 32px;
+}
+.FAQ__block_block-info{
+    margin-top: 79px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.FAQ__block_block-info-text__h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
