@@ -124,6 +124,14 @@
     border: none;
     color: #fff;
 }
+.content-text__elipse{
+    display: flex;
+    justify-content:flex-end ;
+    margin-top: 30px;
+}
+.elipse__noactive{
+    margin-left: 20px;
+}
 .about-us{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -451,3 +459,8 @@
     line-height: 32px;
     color: #CACACA;
 }
+
+
+
+
+
