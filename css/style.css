@@ -262,8 +262,8 @@
     color: rgba(255, 153, 0, 1);
 }
 .How-we-working__block-main{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
 }
 .How-we-working__block-two{
     margin-top: 45px;
@@ -321,10 +321,11 @@
 }
 
 .How-we-working__block-three{
-    background: url('/img/fon.jpg') no-repeat #998A8A;
-    background-size: cover;
     margin-top: 55px;
-    align-items: flex-end;
+}
+.How-we-working__block-three-img{
+    width: 870px;
+    height: 460px;
 }
 
 .FAQ__block{
