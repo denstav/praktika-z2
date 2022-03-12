@@ -7,6 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // инициализация слайдера
+            var slider = new SimpleAdaptiveSlider('.How-we-working__block-main');
+
+            // назначим обработчик при нажатии на кнопку .btn-prev
+            document.querySelector('.btn-prev').onclick = function () {
+                // перейдём к предыдущему слайду
+                slider.prev();
+            }
+            // назначим обработчик при нажатии на кнопку .btn-next
+            document.querySelector('.btn-next').onclick = function () {
+                // перейдём к следующему слайду
+                slider.next();
+            }
+        });
+    </script>
 </head>
 
 <body>
@@ -47,7 +65,7 @@
                     <img src="img/Ellipse 4.svg" alt="" class="elipse__noactive active">
                 </div>
             </div>
-            
+
         </div>
         <div class="about-us">
             <div class="about-us__block">
@@ -89,34 +107,114 @@
         <div class="How-we-working">
             <div class="How-we-working__block">
                 <h2 class="How-we-working__text-h2">Как мы работаем</h2>
-                <div class="How-we-working__block-step">
-                    <a href="" class="block-step__text-a"><p class="block-step__text-p">1 шаг</p></a>
-                    <a href="" class="block-step__text-a"> <p class="block-step__text-p">2 шаг</p></a>
-                    <a href="" class="block-step__text-a"><p class="block-step__text-p">3 шаг</p></a>
-                    <a href="" class="block-step__text-a"><p class="block-step__text-p">4 шаг</p></a>
-                </div>
-                <div class="How-we-working__block-main">
-                    <div class="How-we-working__block-two">
-                        <h2 class="block-two-text__h2">Проводим консультацию</h2>
-                        <div class="block-two-text__div">Влечет за собой процесс внедрения и модернизации приоритизации
-                            разума над эмоциями. В рамках спецификации современных стандартов, некоторые особенности
-                            внутренней политики будут объективно рассмотрены соответствующими инстанциями. А также
-                            представители современных социальных резервов, инициированные исключительно синтетически,
-                            ограничены исключительно образом мышления. Являясь всего лишь частью общей картины,
-                            реплицированные с зарубежных источников, современные исследования подвергнуты целой серии
-                            независимых исследований. Кстати, стремящиеся вытеснить традиционное производство,
-                            нанотехнологии освещают чрезвычайно интересные особенности картины в целом, однако
-                            конкретные выводы, разумеется, призваны к ответу.</div>
-                        <div class="block-two__buttons">
-                            <button class="block-two__buttons-more">Подробнее</button>
-                            <button class="block-two__buttons-treaty">Договор</button>
+                <div class="container">
+                    <div class="How-we-working__block-step">
+                        <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+                        <label for="tab-btn-1">1 Шаг</label>
+                        <input type="radio" name="tab-btn" id="tab-btn-2" value="">
+                        <label for="tab-btn-2">2 Шаг</label>
+                        <input type="radio" name="tab-btn" id="tab-btn-3" value="">
+                        <label for="tab-btn-3">3 Шаг</label>
+                        <input type="radio" name="tab-btn" id="tab-btn-4" value="">
+                        <label for="tab-btn-4">4 Шаг</label>
+                    </div>
+                    <div class="How-we-working__block-main">
+                        <div class="How-we-working__block-two">
+                            <h2 class="block-two-text__h2">Проводим консультацию</h2>
+                            <div class="block-two-text__div">Влечет за собой процесс внедрения и модернизации
+                                приоритизации
+                                разума над эмоциями. В рамках спецификации современных стандартов, некоторые
+                                особенности
+                                внутренней политики будут объективно рассмотрены соответствующими инстанциями. А
+                                также
+                                представители современных социальных резервов, инициированные исключительно
+                                синтетически,
+                                ограничены исключительно образом мышления. Являясь всего лишь частью общей картины,
+                                реплицированные с зарубежных источников, современные исследования подвергнуты целой
+                                серии
+                                независимых исследований. Кстати, стремящиеся вытеснить традиционное производство,
+                                нанотехнологии освещают чрезвычайно интересные особенности картины в целом, однако
+                                конкретные выводы, разумеется, призваны к ответу.</div>
+                            <div class="block-two__buttons">
+                                <button class="block-two__buttons-more">Подробнее</button>
+                                <button class="block-two__buttons-treaty">Договор</button>
+                            </div>
+                        </div>
+                        <div class="How-we-working__block-three">
+                            <img src="img/fon.jpg" alt="" class="How-we-working__block-three-img">
                         </div>
                     </div>
-                    <div class="How-we-working__block-three">
-                        <img src="img/fon.jpg" alt="" class="How-we-working__block-three-img">
+                    <!-- <div class="How-we-working__block-main-2">
+                        <div class="How-we-working__block-two">
+                            <h2 class="block-two-text__h2">Составляем смету</h2>
+                            <div class="block-two-text__div">Внедрения и модернизации приоритизации разума над
+                                эмоциями.
+                                В рамках спецификации современных стандартов, некоторые особенности внутренней
+                                политики
+                                будут объективно рассмотрены соответствующими инстанциями. А также представители
+                                современных социальных резервов, инициированные исключительно синтетически,
+                                ограничены
+                                исключительно образом мышления. Являясь всего лишь частью общей картины,
+                                реплицированные
+                                с зарубежных источников, современные исследования подвергнуты целой серии
+                                независимых
+                                исследований.</div>
+                            <div class="block-two__buttons">
+                                <button class="block-two__buttons-more">Подробнее</button>
+                                <button class="block-two__buttons-treaty">Договор</button>
+                            </div>
+                        </div>
+                        <div class="How-we-working__block-three">
+                            <img src="img/fon2.jpg" alt="" class="How-we-working__block-three-img">
+                        </div>
                     </div>
+                    <div class="How-we-working__block-main-3">
+                        <div class="How-we-working__block-two">
+                            <h2 class="block-two-text__h2">Привлекаем подрядчиков</h2>
+                            <div class="block-two-text__div">Идейные соображения высшего порядка, а также новая
+                                модель организационной деятельности требует анализа прогресса профессионального
+                                сообщества. Высокий уровень вовлечения представителей целевой аудитории является
+                                четким доказательством простого факта: высококачественный прототип будущего проекта
+                                напрямую зависит от дальнейших направлений развития. Разнообразный и богатый опыт
+                                говорит нам, что новая модель организационной деятельности говорит о возможностях
+                                системы массового участия. Принимая во внимание показатели успешности, постоянное
+                                информационно-пропагандистское обеспечение нашей деятельности позволяет выполнить
+                                важные задания по разработке прогресса профессионального сообщества.</div>
+                            <div class="block-two__buttons">
+                                <button class="block-two__buttons-more">Подробнее</button>
+                                <button class="block-two__buttons-treaty">Договор</button>
+                            </div>
+                        </div>
+                        <div class="How-we-working__block-three">
+                            <img src="img/fon3.jpg" alt="" class="How-we-working__block-three-img">
+                        </div>
+                    </div>
+                    <div class="How-we-working__block-main-4">
+                        <div class="How-we-working__block-two">
+                            <h2 class="block-two-text__h2">Инспектируем все этапы работ</h2>
+                            <div class="block-two-text__div">Высокий уровень вовлечения представителей целевой
+                                аудитории является четким доказательством простого факта: высококачественный
+                                прототип будущего проекта напрямую зависит от дальнейших направлений развития.
+                                Разнообразный и богатый опыт говорит нам, что новая модель организационной
+                                деятельности говорит о возможностях системы массового участия. Принимая во внимание
+                                показатели успешности, постоянное информационно-пропагандистское обеспечение нашей
+                                деятельности позволяет.</div>
+                            <div class="block-two__buttons">
+                                <button class="block-two__buttons-more">Подробнее</button>
+                                <button class="block-two__buttons-treaty">Договор</button>
+                            </div>
+                        </div>
+                        <div class="How-we-working__block-three">
+                            <img src="img/fon4.jpg" alt="" class="How-we-working__block-three-img">
+                        </div>
+                    </div> -->
+
+
                 </div>
             </div>
+
+
+
         </div>
         <div class="FAQ">
             <div class="FAQ__block">
@@ -177,7 +275,8 @@
                     <div class="block-content__contacts-center__form">
                         <input type="text" placeholder="Фамилия, имя и отчество*" class="form__name">
                         <input type="email" placeholder="E-mail*" class="form__email">
-                        <textarea name="" id="" cols="30" rows="10" class="form__message" placeholder="Сообщние"></textarea>
+                        <textarea name="" id="" cols="30" rows="10" class="form__message"
+                            placeholder="Сообщние"></textarea>
                         <div class="block-content__contacts-center__form-buttons">
                             <button class="form-button__sumbit" type="submit">Подробнее</button>
                             <div class="form-buttons_checkbox">
