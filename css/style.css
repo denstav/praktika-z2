@@ -124,6 +124,17 @@
     border: none;
     color: #fff;
 }
+.content-text__btn:hover{
+    background: rgba(255, 153, 0, 0.7);
+}
+.content-text__btn:focus{
+    background: rgba(255, 153, 0, 0.7);
+}
+.content-text__btn:active{
+    background: #E1670E;
+}
+
+
 .content-text__elipse{
     display: flex;
     justify-content:flex-end ;
@@ -182,6 +193,16 @@
     border: 3px solid #FF9900;
     background: transparent;
 }
+.img-text__btn:hover{
+    background: #FF9900;
+}
+.img-text__btn:focus{
+    background: #FF9900;
+}
+.img-text__btn:active{
+    background: #E1670E;
+}
+
 .about-us__block-three{
     display: flex;
     justify-content: space-between;
@@ -331,6 +352,7 @@ label{
     color: #FFFFFF;
     cursor: pointer;
 }
+
 .block-two__buttons-treaty{
     width: 147px;
     height: 60px;
