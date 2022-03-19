@@ -53,14 +53,14 @@
     color: #CACACA;
 }
 
-.menu__link_our:hover{
+.block-content__contacts-left__text:hover{
     color: #FF9900;
 }
-.menu__link_our:focus{
+.block-content__contacts-left__text:focus{
     border: 2px solid #FF9900;
     box-sizing: border-box;
 }
-.menu__link_our:active{
+.block-content__contacts-left__text:active{
     border: none;
     color: #E1670E;
 }
@@ -129,8 +129,9 @@
    
 }
 
-.plus__btn:focus  path{
+.plus__btn:active  path{
     stroke:#666666;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
 
 }
 
