@@ -44,6 +44,27 @@
     line-height: 22px;
     color: #333333;
 }
+.menu__link_our{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #CACACA;
+}
+
+.menu__link_our:hover{
+    color: #FF9900;
+}
+.menu__link_our:focus{
+    border: 2px solid #FF9900;
+    box-sizing: border-box;
+}
+.menu__link_our:active{
+    border: none;
+    color: #E1670E;
+}
+
 .search__btn{
     cursor: pointer;
     background: transparent;
@@ -75,6 +96,45 @@
 .search__img:hover > path{
     stroke: #FF9900;
 }
+
+.plus__btn{
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    background-size: contain
+}
+
+.plus__btn:hover ellipse {
+    fill: #FF9900
+}
+
+.plus__img:hover  path{
+    stroke:#FFFFFF;
+    fill: #FF9900
+}
+
+.plus__btn:focus ellipse {
+    fill: #FF9900;
+    stroke: #fff;
+}
+
+
+.plus__btn:focus  path{
+    stroke:#FFFFFF;
+    fill: #FF9900
+}
+
+.plus__btn:active ellipse {
+    fill: #ECECEC;
+   
+}
+
+.plus__btn:focus  path{
+    stroke:#666666;
+
+}
+
+
 .menu__link:hover{
     border-bottom: 2px solid #FF9900;
 }
@@ -325,6 +385,16 @@
     cursor: pointer;
 }
 
+.block-two__buttons-more:hover{
+    background: #F7B045
+}
+.block-two__buttons-more:focus{
+    background: #F7B045;
+}
+.block-two__buttons-more:active{
+    background: #E1670E;
+}
+
 .block-two__buttons-treaty{
     width: 147px;
     height: 60px;
@@ -337,10 +407,23 @@
     text-align: center;
     color: #333333;
     cursor: pointer;
-    margin-left: 32px;
-    
-    
+    margin-left: 32px; 
+    background-color: none;
 }
+
+.block-two__buttons-treaty:hover{
+    background: #666666;
+    color: #FFFFFF;
+}
+.block-two__buttons-treaty:focus{
+    background: #666666;
+    color: #FFFFFF;
+}
+.block-two__buttons-treaty:active{
+    background: #000000;
+    color: #FFFFFF;
+}
+
 .How-we-working__block-three{
     margin-top: 55px;
 }
@@ -366,6 +449,7 @@
     justify-content: space-between;
     text-align: center;
     border-top:1px solid #CACACA;
+    align-items: center;
     
    
     
@@ -380,6 +464,37 @@
 
 
 }
+.FAQ__block_block-info-text__h2:hover{
+    
+    color: #FF9900;
+}
+.FAQ__block_block-info:hover{
+    border: none;
+    border-top:1px solid #FF9900;
+    border-bottom:1px solid #FF9900;
+}
+.FAQ__block_block-info-text__h2:focus{
+    color: #FF9900;
+}
+.FAQ__block_block-info:focus{
+    border: none;
+    border-top:1px solid #FF9900;
+    border-bottom:1px solid #FF9900;
+}
+
+.FAQ__block_block-info-text__h2:active{
+    color: #333333;
+}
+.FAQ__block_block-info:active{
+    border: none;
+    border-top:1px solid #CACACA;
+    border-bottom:1px solid #CACACA;
+}
+
+
+
+
+
 .footer{
     width: 100%;
     background: #222222;
@@ -406,10 +521,31 @@
 .block-content__contacts-left-icons{
     margin-top: 90px;
 }
-.contacts__icon{
+.contacts__icon-btn{
     margin: 0 25px 0 0;
     cursor: pointer;
+    border: none;
+    background: transparent;
 }
+
+.contacts__icon-btn:hover path{
+    fill: #FF9900;
+}
+
+.contacts__icon-btn:focus{
+    border: 2px solid #FF9900;
+    fill: #7C7C7C;
+    
+}
+.contacts__icon-btn:active {
+    border: none;
+    
+}
+.contacts__icon-btn:active path{
+    fill: #E1670E;
+    
+}
+
 .block-content__contacts-right{
     margin-top: 100px;
 }
